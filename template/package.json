@@ -1,0 +1,67 @@
+{
+  "name": "vuetify-material-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "upload": "node build/upload.js",
+    "release": "node build/release.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "chartist": "^0.11.0",
+    "epic-spinners": "^1.0.4",
+    "js-md5": "^0.7.3",
+    "vue": "^2.5.21",
+    "vue-chartist": "^2.2.0",
+    "vue-meta": "^1.5.8",
+    "vuetify": "^1.4.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.3.92",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "material-design-icons-iconfont": "^4.0.4",
+    "shelljs": "^0.8.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-analytics": "^5.16.2",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-i18n": "^8.7.0",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.22",
+    "vuetify-loader": "^1.0.5",
+    "vuex": "^3.1.0",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

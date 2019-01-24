@@ -1,0 +1,11 @@
+{
+  "name": "vuetify-admin-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Vuetify Admin Template",
+  "scripts": {
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.2"
+  }
+}
