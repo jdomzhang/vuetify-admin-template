@@ -30,16 +30,22 @@ module.exports = {
       "label": "License",
       "default": "MIT"
     },
+    "apiurl": {
+      "type": "string",
+      "required": true,
+      "label": "API URL",
+      "default": "api.yourdomain.com"
+    },
     "devPort": {
       "type": "string",
       "message": "API root (dev)",
       "default": "9090"
     },
-    "root": {
-      "type": "string",
+    "prodport": {
+      "type": "number",
       "required": true,
-      "label": "Root account",
-      "default": "root@yourdomain.com"
+      "label": "Prod Server port",
+      "default": 5001
     }
   },
   "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}yarn\n  yarn dev\n\n"
