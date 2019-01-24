@@ -28,7 +28,7 @@
       >
         mdi-alert
       </v-icon>
-      <div> {{message}} </div>
+      <div> \{{message}} </div>
       <v-icon
         size="16"
         @click="snackbar = false"

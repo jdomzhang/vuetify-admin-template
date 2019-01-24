@@ -2,9 +2,16 @@
 
 > Forked from [Vuetify Material Dashboard] (https://github.com/creativetimofficial/vuetify-material-dashboard)
 
-## 基本用法
+## Usage
+
+### Vue cli 3
 ``` bash
-$ yarn add global vue-cli
+$ yarn global add @vue/cli
+$ yarn global add @vue/cli-init
+```
+
+### Init
+```
 $ vue init jdomzhang/vuetify-admin-template my-admin
 $ cd my-admin
 $ yarn

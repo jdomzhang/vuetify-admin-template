@@ -41,10 +41,10 @@
                     :class="i"
                   >
                     <template v-if="i !== 'quote'">
-                      {{ t[1] }}
+                      \{{ t[1] }}
                     </template>
 
-                    <p v-if="i === 'quote'">{{ t[1] }}</p>
+                    <p v-if="i === 'quote'">\{{ t[1] }}</p>
                     <small v-if="i === 'quote'">Kanye West, Musician</small>
 
                     <template v-if="i === 'small'">

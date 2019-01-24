@@ -4,9 +4,9 @@
       <v-flex xs12>
         <material-card :text="$t('Views.SayHello.callAPI')" color="green" title="Rest API">
           <v-card-text>
-            <v-btn color="secondary" @click="onClickSayHello">{{ $t('Views.SayHello.hello') }}</v-btn>
+            <v-btn color="secondary" @click="onClickSayHello">\{{ $t('Views.SayHello.hello') }}</v-btn>
 
-            <h3>[{{timeStamp}}] {{ helloFromServer }}</h3>
+            <h3>[\{{timeStamp}}] \{{ helloFromServer }}</h3>
           </v-card-text>
         </material-card>
       </v-flex>

@@ -35,9 +35,9 @@
             top
             content-class="top">
             <v-icon slot="activator">
-              {{ icon }}
+              \{{ icon }}
             </v-icon>
-            <span>{{ icon }}</span>
+            <span>\{{ icon }}</span>
           </v-tooltip>
         </v-flex>
       </v-layout>

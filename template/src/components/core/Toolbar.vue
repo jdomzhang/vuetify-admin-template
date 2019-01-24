@@ -19,7 +19,7 @@
         >
           <v-icon>mdi-view-list</v-icon>
         </v-btn>
-        {{ title }}
+        \{{ title }}
       </v-toolbar-title>
     </div>
 
@@ -61,7 +61,7 @@
               overlap
             >
               <template slot="badge">
-                {{ notifications.length }}
+                \{{ notifications.length }}
               </template>
               <v-icon color="tertiary">mdi-bell</v-icon>
             </v-badge>
@@ -113,7 +113,7 @@
                 <v-list-tile-action>
                   <img :src="lang.img">
                 </v-list-tile-action>
-                <v-list-tile-title>{{lang.name}}</v-list-tile-title>
+                <v-list-tile-title>\{{lang.name}}</v-list-tile-title>
               </v-list-tile>
             </v-list>
           </v-card>

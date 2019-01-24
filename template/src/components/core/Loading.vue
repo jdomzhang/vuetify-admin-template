@@ -4,7 +4,7 @@
     <v-container fill-height>
       <v-layout column justify-center align-center>
         <SemipolarSpinner :animation-duration="2000" :size="65" :color="progressColor" />
-        <h1 class="headline" v-if="message != null">{{message}}</h1>
+        <h1 class="headline" v-if="message != null">\{{message}}</h1>
       </v-layout>
     </v-container>
   </v-dialog>

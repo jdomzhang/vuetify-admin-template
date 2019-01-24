@@ -34,10 +34,10 @@
               slot="items"
               slot-scope="{ item }"
             >
-              <td>{{ item.name }}</td>
-              <td>{{ item.country }}</td>
-              <td>{{ item.city }}</td>
-              <td class="text-xs-right">{{ item.salary }}</td>
+              <td>\{{ item.name }}</td>
+              <td>\{{ item.country }}</td>
+              <td>\{{ item.city }}</td>
+              <td class="text-xs-right">\{{ item.salary }}</td>
             </template>
           </v-data-table>
         </material-card>
@@ -70,10 +70,10 @@
               slot="items"
               slot-scope="{ item }"
             >
-              <td>{{ item.name }}</td>
-              <td>{{ item.country }}</td>
-              <td>{{ item.city }}</td>
-              <td class="text-xs-right">{{ item.salary }}</td>
+              <td>\{{ item.name }}</td>
+              <td>\{{ item.country }}</td>
+              <td>\{{ item.city }}</td>
+              <td class="text-xs-right">\{{ item.salary }}</td>
             </template>
           </v-data-table>
         </material-card>

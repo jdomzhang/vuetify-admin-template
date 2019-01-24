@@ -14,7 +14,7 @@
       <v-icon
         size="40"
       >
-        {{ icon }}
+        \{{ icon }}
       </v-icon>
     </v-card>
     <div class="text-xs-right">
@@ -24,7 +24,7 @@
       />
       <h3
         class="title display-1 font-weight-light">
-        {{ value }} <small>{{ smallValue }}</small>
+        \{{ value }} <small>\{{ smallValue }}</small>
       </h3>
     </div>
 
@@ -34,7 +34,7 @@
         size="20"
         class="mr-2"
       >
-        {{ subIcon }}
+        \{{ subIcon }}
       </v-icon>
       <span
         :class="subTextColor"

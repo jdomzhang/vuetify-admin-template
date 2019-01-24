@@ -31,7 +31,7 @@
           @click="$title = link.text"
         >
           <v-list-tile-action>
-            <v-icon>{{ link.icon }}</v-icon>
+            <v-icon>\{{ link.icon }}</v-icon>
           </v-list-tile-action>
           <v-list-tile-title v-text="link.text"/>
         </v-list-tile>

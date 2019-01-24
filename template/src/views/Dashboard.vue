@@ -180,11 +180,11 @@
               slot="items"
               slot-scope="{ index, item }"
             >
-              <td>{{ index + 1 }}</td>
-              <td>{{ item.name }}</td>
-              <td class="text-xs-right">{{ item.salary }}</td>
-              <td class="text-xs-right">{{ item.country }}</td>
-              <td class="text-xs-right">{{ item.city }}</td>
+              <td>\{{ index + 1 }}</td>
+              <td>\{{ item.name }}</td>
+              <td class="text-xs-right">\{{ item.salary }}</td>
+              <td class="text-xs-right">\{{ item.country }}</td>
+              <td class="text-xs-right">\{{ item.city }}</td>
             </template>
           </v-data-table>
         </material-card>

@@ -11,13 +11,13 @@
       >
         <a
           :href="link.Link"
-          class="tertiary--text footer-links">{{ link.name }}</a>
+          class="tertiary--text footer-links">\{{ link.name }}</a>
       </span>
     </div>
     <v-spacer/>
     <span class="font-weight-light copyright">
       &copy;
-      {{ (new Date()).getFullYear() }}
+      \{{ (new Date()).getFullYear() }}
       <a
         href="https://www.creative-tim.com/"
         target="_blank">Creative Tim</a>, made with
