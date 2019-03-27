@@ -2,11 +2,11 @@
   <v-container fill-height fluid>
     <v-layout justify-center align-center>
       <v-flex xs12 sm8 md6 lg4>
-        <material-card :img="logo" :text="$t('Core.Login.text')" color="green" :title="$t('Core.Login.title')">
+        <material-card :text="$t('Core.Login.text')" color="green" :title="$t('Core.Login.title')">
           <v-card-text>
             <v-form>
-              <v-text-field prepend-icon="fa-user" label="手机号" v-model="mobile" type="text" v-on:keyup.enter="$refs.password.focus()"></v-text-field>
-              <v-text-field ref="password" prepend-icon="fa-lock" label="密码" v-model="plainPassword" id="password" type="password" v-on:keyup.enter="onClickLogin"></v-text-field>
+              <v-text-field prepend-icon="mdi-cellphone" label="手机号" v-model="mobile" type="text" v-on:keyup.enter="$refs.password.focus()"></v-text-field>
+              <v-text-field ref="password" prepend-icon="mdi-lock" label="密码" v-model="plainPassword" id="password" type="password" v-on:keyup.enter="onClickLogin"></v-text-field>
             </v-form>
           </v-card-text>
           <v-card-actions>
